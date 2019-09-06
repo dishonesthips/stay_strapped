@@ -1,0 +1,68 @@
+strapped:
+  repo: https://raw.githubusercontent.com/azohra/strapped/master/straps
+
+bash:
+  mkdir:
+    - { dir: ~/Development }
+    - { dir: ~/School }
+
+git:
+  clone:
+    - { repo: git@github.com:azohra/lyra.git,                folder: ~/Development/lyra     }
+    - { repo: git@github.com:azohra/strapped.sh.git,         folder: ~/Development/strapped }
+
+brew:
+  taps:
+    - { name: azohra/tools } 
+    - { name: homebrew/cask } 
+    - { name: homebrew/cask-drivers } 
+    - { name: homebrew/cask-fonts }
+    - { name: homebrew/cask-versions }
+    - { name: homebrew/core } 
+
+  packages:
+    - { name: openssh,         upgrade: true } 
+    - { name: bash,            upgrade: true }  
+    - { name: lyra,            upgrade: true } 
+    - { name: openssl,         upgrade: true } 
+    - { name: elixir,          upgrade: true } 
+    - { name: bash-completion, upgrade: true } 
+    - { name: htop,            upgrade: true } 
+    - { name: jq,              upgrade: true }
+    - { name: python,          upgrade: true } 
+    - { name: wget,            upgrade: true } 
+    - { name: dockutil,        upgrade: true } 
+    - { name: git,             upgrade: true } 
+    - { name: yq,              upgrade: true } 
+    - { name: terraform,       upgrade: true } 
+
+  casks:
+    - { name: google-cloud-sdk,                  upgrade: true }  
+    - { name: steam,                             upgrade: true }
+    - { name: visual-studio-code,                upgrade: true }
+    - { name: cleanmymac,                        upgrade: true }  
+    - { name: discord,                           upgrade: true }                                
+    - { name: microsoft-office,                  upgrade: true }                   
+    - { name: slack,                             upgrade: true } 
+    - { name: docker,                            upgrade: true }                    
+    - { name: spotify,                           upgrade: true } 
+    - { name: google-chrome,                     upgrade: true }
+
+dockutil:
+  apps:
+    - { name: Google Chrome,            pos: 1, path: "/Applications/Google Chrome.app" }
+    - { name: Slack,              pos: 2, path: "/Applications/Slack.app" }
+    - { name: Spotify,            pos: 3, path: "/Applications/Spotify.app" }
+    - { name: Terminal,           pos: 4, path: "/Applications/Utilities/Terminal.app" }
+    - { name: Visual Studio Code, pos: 5, path: "/Applications/Visual Studio Code.app" }
+    - { name: Microsoft Outlook,  pos: 6, path: "/Applications/Microsoft Outlook.app" }
+
+visual_studio_code:
+  extensions:
+    - { name: ms-vscode.cpptools }
+    - { name: PeterJausovec.vscode-docker }
+    - { name: eamodio.gitlens }
+    - { name: jakebecker.elixir-ls }
+    - { name: mechatroner.rainbow-csv }
+    - { name: redhat.vscode-yaml }
+   
