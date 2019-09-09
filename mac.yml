@@ -35,6 +35,7 @@ brew:
     - { name: git,             upgrade: true } 
     - { name: yq,              upgrade: true } 
     - { name: terraform,       upgrade: true } 
+    - { name: kubernetes-cli,  upgrade: true }
 
   casks:
     - { name: google-cloud-sdk,                  upgrade: true }  
@@ -50,7 +51,7 @@ brew:
 
 dockutil:
   apps:
-    - { name: Google Chrome,            pos: 1, path: "/Applications/Google Chrome.app" }
+    - { name: Google Chrome,      pos: 1, path: "/Applications/Google Chrome.app" }
     - { name: Slack,              pos: 2, path: "/Applications/Slack.app" }
     - { name: Spotify,            pos: 3, path: "/Applications/Spotify.app" }
     - { name: Terminal,           pos: 4, path: "/Applications/Utilities/Terminal.app" }
