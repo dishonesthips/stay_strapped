@@ -36,6 +36,8 @@ brew:
     - { name: yq,              upgrade: true } 
     - { name: terraform,       upgrade: true } 
     - { name: kubernetes-cli,  upgrade: true }
+    - { name: node,            upgrade: true }
+    - { name: postgresql,      upgrade: true }
 
   casks:
     - { name: google-cloud-sdk,                  upgrade: true }  
