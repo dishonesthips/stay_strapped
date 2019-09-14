@@ -51,6 +51,10 @@ brew:
     - { name: spotify,                           upgrade: true } 
     - { name: google-chrome,                     upgrade: true }
 
+npm:
+  packages:
+    - { name: ngrok }
+
 dockutil:
   apps:
     - { name: Google Chrome,      pos: 1, path: "/Applications/Google Chrome.app" }
