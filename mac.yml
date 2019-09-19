@@ -3,7 +3,7 @@ strapped:
 
 bash:
   mkdir:
-    - { dir: ~/Development }
+    - { dir: ~/Projects }
     - { dir: ~/School }
 
 git:
