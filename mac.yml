@@ -67,7 +67,7 @@ dockutil:
 visual_studio_code:
   extensions:
     - { name: ms-vscode.cpptools }
-    - { name: PeterJausovec.vscode-docker }
+    - { name: ms-azuretools.vscode-docker }
     - { name: eamodio.gitlens }
     - { name: jakebecker.elixir-ls }
     - { name: mechatroner.rainbow-csv }
