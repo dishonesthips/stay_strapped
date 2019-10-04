@@ -73,4 +73,6 @@ visual_studio_code:
     - { name: jakebecker.elixir-ls }
     - { name: mechatroner.rainbow-csv }
     - { name: redhat.vscode-yaml }
+    - { name: ms-vscode.go }
+
    
