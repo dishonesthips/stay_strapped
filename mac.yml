@@ -8,8 +8,8 @@ bash:
 
 git:
   clone:
-    - { repo: git@github.com:azohra/lyra.git,                folder: ~/Development/lyra     }
-    - { repo: git@github.com:azohra/strapped.sh.git,         folder: ~/Development/strapped }
+    - { repo: git@github.com:azohra/lyra.git,                folder: ~/Projects/lyra     }
+    - { repo: git@github.com:azohra/strapped.sh.git,         folder: ~/Projects/strapped }
 
 brew:
   taps:
